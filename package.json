@@ -1,0 +1,16 @@
+{
+  "name": "trdx_iot_car",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Sample to send data to the IoT Hub using Node.js",
+  "author": "Leonardo Graboski Veiga",
+  "license": "MIT",
+  "dependencies": {
+    "azure-iot-device": "1.0.1",
+    "azure-iot-device-http": "1.0.1",
+    "bancroft": "0.0.12"
+  },
+  "devDependencies": {
+    "jshint": "^2.8.0"
+  }
+}

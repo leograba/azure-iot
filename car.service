@@ -1,0 +1,10 @@
+[Unit]
+Description=Azure Example
+After=multi-user.target
+ 
+[Service]
+Type=simple
+ExecStart=/home/root/azure-iot-car/init.sh
+ 
+[Install]
+WantedBy=multi-user.target
